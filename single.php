@@ -38,7 +38,7 @@ while(have_posts()) {
                     ?>
                 </ol>
                 </div>
-                <a href="#" class="btn btn-primary btn-sm">Back To All Blog Posts</a>
+                <a href="<?php echo site_url('/blog'); ?>" class="btn btn-primary btn-sm">Back To All Blog Posts</a>
             </div>
         </div>
     </div>

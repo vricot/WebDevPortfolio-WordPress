@@ -40,7 +40,7 @@
                                             HTML5, CSS3, JavaScript
                                         </li>
                                         <li>
-                                            MongoDB, Express, Node.js, PHP
+                                            MongoDB, Node.js, Express.js, PHP
                                         </li>
                                         <li>
                                             WordPress, GitHub, Heroku, Cloudinary
@@ -275,40 +275,25 @@
                         wp_reset_query(); 
                         
                     ?>
-                    <a href="<?php echo site_url('/blog'); ?>" class="float-end px-3">read more ></a>
+                    <a href="<?php echo site_url('/blog'); ?>" class="float-end px-3">all blog posts ></a>
                     </section>
 
     <!--Contact Section-->
                     <section class="contact">
                         <h2 class="display-6 mb-3">contact me:</h2>
-                        <div class="container-fluid mb-3 icons">
+                        <div class="containter-fluid">
+                            <div class="col-lg-8 offset-lg-2">
+                            <div class="container-fluid mb-3 icons">
                             <a href="https://github.com/vricot" class="font-awesome" id="github" target="_blank"><i class="fa fa-github"></i> GitHub</a>
                             <a href="https://www.linkedin.com/in/valerie-ricot-66b772a1/" target="_blank"><i class="fa fa-linkedin" id="linkedin"></i> LinkedIn</a>
                         </div>
-                        <div class="containter-fluid">
-                            <div class="col-lg-6 offset-lg-3">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="mb-3">
-                                        <label for="name" class="form-label">Name:</label>
-                                        <input type="text" class="form-control" id="name-input" placeholder="Name">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="mb-3">
-                                        <label for="email" class="form-label">Email address</label>
-                                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
-                                      </div>
-                                </div>
-                                <div class="col-md-12">
-                                  <div class="mb-3">
-                                    <label for="message" class="form-label">Example textarea</label>
-                                    <textarea class="form-control" id="message" rows="3"></textarea>
-                                  </div>
-                                </div>
-                        <button type="button" class="btn btn-success float-end">Send</button>
-                    </div>
-                    </section>
+                                        <div class="contact-form-container">
+                                            <?php echo do_shortcode( '[contact-form-7 id="30" title="My Contact Form"]' ); ?> 
+                                        </div> 
+    </section>
                     
 
 <?php get_footer(); ?>

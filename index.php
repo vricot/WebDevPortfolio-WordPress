@@ -10,7 +10,7 @@
                 ?>
                             <div class="container-fluid">
                                 <div class="row">
-                                    <div class="col-12">
+                                    <div class="col-lg-8 offset-lg-2">
                                         <div class="card mb-3">
                                         <a href="<?php the_permalink(); ?>"></a>
                                             <img src="<?php echo get_the_post_thumbnail_url(get_the_ID());?>" class="card-img-top" alt="...">

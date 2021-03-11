@@ -2,7 +2,7 @@
 //adding the CSS and JS Files
 function vr_setup() {
     //not needed so far: wp_enqueue_style('google-fonts', 'url')
-    wp_enqueue_style('custom-fa', 'https://use.fontawesome.com/releases/v5.0.6/css/all.css');
+    wp_enqueue_style('custom-fa', '//use.fontawesome.com/releases/v5.0.6/css/all.css');
 
     wp_enqueue_style('bootstrap', get_stylesheet_directory_uri() . '/bootstrap/css/bootstrap.min.css');
     

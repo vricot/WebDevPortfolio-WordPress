@@ -1,7 +1,7 @@
                     
                     <footer class="foooter">
                         <div class="container-fluid text-center">
-                           <span>&copy; Valerie Ricot 2021</span>
+                           <p class="footer-element">&copy; Valerie Ricot 2021</p>
                         </div>
                     </footer>
                 </div>

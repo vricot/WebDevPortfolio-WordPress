@@ -5,6 +5,7 @@ Description: The official theme for Valerie Ricot
 Version: 1.0
 */
 
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 /* Body */
 
 body,
@@ -77,6 +78,11 @@ a {
   background-color: rgb(253, 248, 241);
 }
 
+.icons {
+    position: relative;
+    left: -1.5rem;
+}
+
 .icons a {
   margin-right: 30px;
   display: inline;
@@ -102,6 +108,13 @@ a.page-numbers {
 
 span.page-numbers.current {
     margin-right: 1rem;
+}
+
+/* Read More Buttons */
+
+a.btn.btn-primary {
+    background-color: rgb(255, 97, 124);
+    border: none;
 }
 
 /* Blog Post */
@@ -134,6 +147,31 @@ a.btn-primary.btn-sm {
     border: none;
     justify-content: center;
     margin-bottom: 1rem;
+}
+
+/* Contact Form */
+
+.wpcf7-form.init {
+    display: grid;
+}
+
+.wpcf7-submit {
+    background-color: rgb(255, 97, 124);
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    justify-self: center;
+}
+
+.wpcf7-submit:hover {
+    background-color:  rgb(252, 129, 150);
+}
+
+/* Footer */
+
+.footer-element {
+    font-size: 16px;
+    text-align: right;
 }
 
 /* Media Queries */
