@@ -49,3 +49,4 @@ function vr_custom_post_type() {
 }
 
 add_action('init', 'vr_custom_post_type');
+
