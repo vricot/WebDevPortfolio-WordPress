@@ -235,7 +235,7 @@
 
     <!--Resume Section-->
                     <section class="resume">
-                        <a href="#" target="_blank"><h2 class="display-6">check out my resume</h2></a>
+                        <a href="<?php echo get_template_directory_uri(); ?>/Valerie-Ricot-Resume.docx" target="_blank"><h2 class="display-6">check out my resume</h2></a>
                     </section>
 
     <!--Blog Section--> 
