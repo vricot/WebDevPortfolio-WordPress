@@ -11,6 +11,7 @@ Version: 1.0
 body,
 html {
   height: 100%;
+  width: 100%;
 }
 
 body {
@@ -52,6 +53,7 @@ body {
 #title {
   position: relative;
   left: 10%;
+  font-weight: 400;
 }
 
 .full-height {
@@ -150,7 +152,6 @@ a.btn-primary.btn-sm {
 }
 
 /* Contact Form */
-
 .wpcf7-form.init {
     display: grid;
 }
@@ -178,10 +179,37 @@ a.btn-primary.btn-sm {
 
 @media (max-width: 768px) {
   .intro-left {
-    height: 30vh;
+    height: 40vh;
     margin-bottom: 0;
     position: relative;
     width: 100%;
   }
+  .panel-right {
+    width: 100vw;
+    overflow-x: auto;
+    margin-right: 0;
+  }
+  .wpcf7-form-control {
+    width: 100%;
+  }
+  .card-title {
+    font-size: 24px;
+  }
 }
-
+ @media (max-width: 321px) {
+   #title {
+     font-size: smaller;
+     margin-top: -.5rem;
+   }
+  .headshot {
+    width: 8rem;
+    height: 8rem;
+  }
+  .skills {
+    font-size: 18px;
+  }
+  .icons a {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+ }
